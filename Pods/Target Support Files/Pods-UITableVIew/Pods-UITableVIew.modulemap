@@ -1,0 +1,6 @@
+framework module Pods_UITableVIew {
+  umbrella header "Pods-UITableVIew-umbrella.h"
+
+  export *
+  module * { export * }
+}

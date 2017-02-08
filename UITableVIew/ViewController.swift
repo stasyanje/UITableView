@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     
     var items = [Item]()
     
-    private let pageSize: Int = 50
+    private let pageSize: Int = 25
     fileprivate let templateCell = TableViewCell()
     fileprivate var isLoadingItems = false
 
@@ -58,8 +58,8 @@ class ViewController: UIViewController {
         for _ in 0..<pageSize {
             let imageURL = imageURLs[Int(arc4random_uniform(UInt32(imageURLs.count)))]
             let item = Item(imageURL: imageURL,
-                            topTitle: LoremIpsum.paragraph()!,
-                            bottomTitle: LoremIpsum.paragraph())
+                            topTitle: LoremIpsum.sentences(withNumber: 2)!,
+                            bottomTitle: LoremIpsum.sentences(withNumber: 2)!)
             items.append(item)
         }
         DispatchQueue.main.async {

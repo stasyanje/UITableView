@@ -1,0 +1,8 @@
+
+
+target ‘UITableVIew’ do
+  use_frameworks!
+  pod ‘LoremIpsum’
+  pod ‘Kingfisher’
+end
+

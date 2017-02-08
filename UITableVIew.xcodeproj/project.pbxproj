@@ -126,6 +126,7 @@
 				TargetAttributes = {
 					844613131E4A22B40039102D = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = X4LM82V6K8;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -338,7 +339,9 @@
 			baseConfigurationReference = 50B1AE25200C01373D9C175D /* Pods-UITableVIew.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X4LM82V6K8;
 				INFOPLIST_FILE = UITableVIew/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = stasyanje.UITableVIew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -351,7 +354,9 @@
 			baseConfigurationReference = 316C8D5C725FB1E209F60FA6 /* Pods-UITableVIew.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X4LM82V6K8;
 				INFOPLIST_FILE = UITableVIew/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = stasyanje.UITableVIew;
 				PRODUCT_NAME = "$(TARGET_NAME)";

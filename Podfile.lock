@@ -1,0 +1,15 @@
+PODS:
+  - Kingfisher (3.3.2)
+  - LoremIpsum (1.0.0)
+
+DEPENDENCIES:
+  - Kingfisher
+  - LoremIpsum
+
+SPEC CHECKSUMS:
+  Kingfisher: 8e60094454aeb4746eb588eb57f794d891c6ea88
+  LoremIpsum: 9029c55d36501b2ee0b05cc9ecda11d3a0479160
+
+PODFILE CHECKSUM: 4e3f4d8ac7480d0a724b91120f4b2ed4bf9f06aa
+
+COCOAPODS: 1.2.0
